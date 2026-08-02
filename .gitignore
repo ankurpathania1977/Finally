@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Cached market data (JSON info + price history CSVs)
+data/cache/
+
+.streamlit/
+
+.env
+
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
